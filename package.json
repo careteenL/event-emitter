@@ -1,7 +1,7 @@
 {
   "name": "@careteen/eventEmitter",
   "version": "0.1.0",
-  "description": "jslib",
+  "description": "eventEmitter, a pub-sub way",
   "main": "dist/index.cjs.js",
   "module": "dist/index/esm.js",
   "unpkg": "dist/index/min.js",
@@ -13,7 +13,7 @@
     "test": "rimraf mochawesome-report/ && cross-env NODE_ENV=test mocha --compilers js:babel-core/register ./test  --recursive --reporter mochawesome",
     "example": "npm run build && node example/app.js",
     "rename": "node rename.js",
-    "release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish --access=public"
+    "release": "npm test && npm run build && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish --access=public"
   },
   "keywords": [
     "rollup",

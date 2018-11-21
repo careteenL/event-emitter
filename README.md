@@ -2,8 +2,8 @@
 [![](https://img.shields.io/badge/Powered%20by-eventEmitter-brightgreen.svg)](https://github.com/careteenL/eventEmitter)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/careteenL/eventEmitter/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/careteenL/eventEmitter.svg?branch=master)](https://travis-ci.org/careteenL/eventEmitter)
-[![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/eventEmitter)
-[![NPM downloads](http://img.shields.io/npm/dm/eventEmitter.svg?style=flat-square)](http://www.npmtrends.com/eventEmitter)
+[![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/@careteen/eventEmitter)
+[![NPM downloads](http://img.shields.io/npm/dm/@careteen/eventEmitter.svg?style=flat-square)](http://www.npmtrends.com/@careteen/eventEmitter)
 
 [English Document](./README.en_US.md)
 
@@ -36,7 +36,7 @@ IE9+
 
 ## 使用文档
 
-- [API](./doc.api.md)
+- [API](./doc/api.md)
 - [对该库的源码解析](xxx)
 
 ## issue模板
