@@ -1,7 +1,7 @@
 {
-  "name": "@careteen/eventEmitter",
-  "version": "0.1.1",
-  "description": "eventEmitter, a pub-sub way",
+  "name": "@careteen/event-emitter",
+  "version": "0.1.2",
+  "description": "event-emitter, a pub-sub way",
   "main": "dist/index.cjs.js",
   "module": "dist/index/esm.js",
   "unpkg": "dist/index/min.js",
@@ -17,16 +17,16 @@
   },
   "keywords": [
     "rollup",
-    "eventEmitter"
+    "event-emitter"
   ],
   "author": "careteenL <15074806497@163.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/careteenL/eventEmitter.git"
+    "url": "git://github.com/careteenL/event-emitter.git"
   },
   "bugs": {
-    "url": "https://github.com/careteenL/eventEmitter/issues"
+    "url": "https://github.com/careteenL/event-emitter/issues"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

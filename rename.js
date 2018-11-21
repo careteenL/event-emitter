@@ -5,12 +5,12 @@
 require('shelljs/global')
 
 // todo replace
-let oldName = 'jslib-cli'
+let oldName = 'eventEmitter'
 
 let replaceReg = new RegExp(`${oldName}`, 'g')
 
 // todo replace
-let newName = 'eventEmitter'
+let newName = 'event-emitter'
 
 // todo add : 待替换的文件
 let fileMap = [

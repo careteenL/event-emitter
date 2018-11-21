@@ -95,7 +95,7 @@
 
 先订阅后发布的简单调用
 ```js
-import EventEmitter from '@careteen/eventEmitter'
+import EventEmitter from '@careteen/event-emitter'
 
 console.log('先订阅后发布：')
 EventEmitter.on('click', function (data) {
@@ -110,7 +110,7 @@ EventEmitter.emit('click', 'lanlan')
 
 先发布后订阅的简单调用
 ```js
-import EventEmitter from '@careteen/eventEmitter'
+import EventEmitter from '@careteen/event-emitter'
 
 // 先发布后订阅
 console.log('先发布后订阅：')
@@ -126,7 +126,7 @@ EventEmitter.on('click', function (data) {
 
 使用命名空间简单调用
 ```js
-import EventEmitter from '@careteen/eventEmitter'
+import EventEmitter from '@careteen/event-emitter'
 
 console.log('使用命名空间：')
 EventEmitter.create('nameOne').on('click', function (data) {
@@ -144,7 +144,7 @@ EventEmitter.create('nameTwo').emit('click', 'high')
 
 先发布后订阅 传last时，订阅只会读取最新一次发布的数据
 ```js
-import EventEmitter from '@careteen/eventEmitter'
+import EventEmitter from '@careteen/event-emitter'
 
 // 先发布后订阅 传last时，订阅只会读取最新一次发布的数据
 console.log('先发布后订阅 传last时，订阅只会读取最新一次发布的数据：')

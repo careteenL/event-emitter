@@ -1,9 +1,9 @@
-# [eventEmitter](https://github.com/careteenL/eventEmitter)
-[![](https://img.shields.io/badge/Powered%20by-eventEmitter-brightgreen.svg)](https://github.com/careteenL/eventEmitter)
+# [event-emitter](https://github.com/careteenL/event-emitter)
+[![](https://img.shields.io/badge/Powered%20by-event-emitter-brightgreen.svg)](https://github.com/careteenL/eventEmitter)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/careteenL/eventEmitter/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/careteenL/eventEmitter.svg?branch=master)](https://travis-ci.org/careteenL/eventEmitter)
-[![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/@careteen/eventEmitter)
-[![NPM downloads](http://img.shields.io/npm/dm/@careteen/eventEmitter.svg?style=flat-square)](http://www.npmtrends.com/@careteen/eventEmitter)
+[![npm](https://img.shields.io/badge/npm-0.1.0-orange.svg)](https://www.npmjs.com/package/@careteen/event-emitter)
+[![NPM downloads](http://img.shields.io/npm/dm/@careteen/event-emitter.svg?style=flat-square)](http://www.npmtrends.com/@careteen/event-emitter)
 
 [English Document](./README.en_US.md)
 
@@ -15,11 +15,11 @@
 ## 快速使用
 
 ```shell
-npm i -D @careteen/eventEmitter
+npm i -D @careteen/event-emitter
 ```
 
 ```js
-import EventEmitter from '@careteen/eventEmitter'
+import EventEmitter from '@careteen/event-emitter'
 
 EventEmitter.on('click', function (data) {
   console.log('_default:' + data)
@@ -47,7 +47,7 @@ IE9+
 
 clone仓库并引入依赖
 ```shell
-git clone git@github.com:careteenL/eventEmitter.git
+git clone git@github.com:careteenL/event-emitter.git
 npm install
 ```
 开始开发：）
@@ -67,7 +67,7 @@ npm run example
 npm run release
 ```
 
-- [Contributors](https://github.com/careteenL/eventEmitter/graphs/contributors)
+- [Contributors](https://github.com/careteenL/event-emitter/graphs/contributors)
 
 ## 更新日志
 
