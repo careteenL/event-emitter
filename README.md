@@ -45,7 +45,7 @@ IE9+
 
 ## 贡献者及指南
 
-clone仓库并引入依赖
+clone仓库并引入依赖
 ```shell
 git clone git@github.com:careteenL/event-emitter.git
 npm install
@@ -54,7 +54,7 @@ npm install
 
 ...
 
-请编写单元测试覆盖所加功能
+请编写单元测试覆盖所加功能
 ```shell
 npm run test
 ```
