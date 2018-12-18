@@ -14,6 +14,7 @@
 
 ## 快速使用
 
+NPM
 ```shell
 npm i -D @careteen/event-emitter
 ```
@@ -27,6 +28,20 @@ EventEmitter.on('click', function (data) {
 EventEmitter.emit('click', 'careteen')
 EventEmitter.emit('click', 'lanlan')
 // 输出 -> careteen  & lanlan
+```
+
+or CDN
+```js
+<script src='https://unpkg.com/@careteen/event-emitter/dist/index.js'></script>
+<script>
+  var EventEmitter = window['@careteen/event-emitter']
+  EventEmitter.on('click', function (data) {
+    console.log('_default:' + data)
+  })
+  EventEmitter.emit('click', 'careteen')
+  EventEmitter.emit('click', 'lanlan')
+  // 输出 -> careteen  & lanlan
+</script>
 ```
 更详细使用请查看[API](./doc/api.md)
 
