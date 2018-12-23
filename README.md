@@ -7,6 +7,8 @@
 
 [English Document](./README.en_US.md)
 
+Node的[events](https://github.com/Gozala/events)模块不支持先发布后订阅。正是此库的动机。
+
 全局通用发布-订阅模式。可支持：
 
 - 1、先发布(or触发事件)后订阅(or注册事件)
